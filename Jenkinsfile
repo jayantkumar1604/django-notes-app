@@ -32,7 +32,7 @@ pipeline {
         stage('Push to DockerHub') {
             steps {
                 script {
-                    // ✅ FIXED IMAGE NAME
+                    
                     docker_push("notes-app","latest","jayantkumar1604")
                 }
             }
